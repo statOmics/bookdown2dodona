@@ -1,10 +1,10 @@
-Package: Bookdown2Donoda
+Package: bookdown2dodona
 Type: Package
 Title: Compile bookdown formatted markdown to a Dodona-ready format
 Version: 0.1.0
 Author: Viktor Verstraelen
 Maintainer: Lieven Clement <lieven.clement@ugent.be>
-Description: The Bookdown2Dodona package can be used to compile a set of Rmarkdown files 
+Description: The bookdown2dodona package can be used to compile a set of Rmarkdown files 
   that follow the bookdown standard to a folder structure of description files that can be directly used with Dodona.
 License: LGPL (>= 3)
 Encoding: UTF-8
