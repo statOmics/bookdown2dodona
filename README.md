@@ -65,21 +65,3 @@ Images (either html or md format) must be on a seperate line in your Rmd file.
 
 Scaling of images is hardcoded at 70% width to make sure they look good in Dodona.
 If you need a smaller image, the easiest solution is to add white borders around the image so it looks good at 70% scaling.
-
-## Other notes
-
-Certain bookdown specific constructions such as definitions are not displayed properly in Dodona.
-instead of:
-
-````
-```{definition, name="Elephant"}
-An elephant is a large gray animal native to Asia and Africa.
-```
-````
-
-use 
-````
-```{definition, name="Elephant"}
-```
-An elephant is a large gray animal native to Asia and Africa.
-````
