@@ -36,7 +36,7 @@ compileB2D <- function(source_dir = '.', output_dir = './dodona_md', book_dir = 
   # Render the full book into the book_dir directory
   base_wd <- getwd()
   setwd(source_dir)
-  bookdown::render_book("", output_format = "bookdown::markdown_document2", clean=T, output_dir = book_dir, config_file = config_file)
+  bookdown::render_book(".", output_format = "bookdown::markdown_document2", clean=T, output_dir = book_dir, config_file = config_file)
 
   # Read the lines of the resulting book into `lines`
   lines <- readLines(file.path(book_dir,paste0(name, '.md')))
