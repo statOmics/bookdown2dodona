@@ -22,7 +22,7 @@ install_github("statOmics/bookdown2dodona")
 
 # Usage
 
-By default, bookdown2dodona will look for bookdown files in your current working directory and place the Dodona output files in a subdirectory named `Dodona_md`.
+By default, bookdown2dodona will look for bookdown files in your current working directory. The compilation itself is done by using the `compileB2D` function.
 
 ``` r
 library(bookdown2dodona)
