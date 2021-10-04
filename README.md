@@ -1,5 +1,5 @@
 # bookdown2dodona
-Repository to compile a book developed in R/bookdown to the interactive learning environment Dodona
+Bookdown2dodona can compile books developed in R/bookdown to the interactive learning environment Dodona.
 
 # Dependencies
 bookdown2dodona has been tested to work with following software versions:
@@ -22,7 +22,7 @@ install_github("statOmics/bookdown2dodona")
 
 # Usage
 
-If you want the Dodona files to be placed in your bookdown source folder, the easiest way to use bookdown2dodona is to set the bookdown source folder as your working directory and call compileB2D with default arguments.
+By default, bookdown2dodona will look for bookdown files in your current working directory and place the Dodona output files in a subdirectory named `Dodona_md`.
 
 ``` r
 library(bookdown2dodona)
@@ -32,6 +32,7 @@ compileB2D()
 
 This will place the compiled book in a folder named `book_md` and the Dodona files in `Dodona_md`.
 
+Alternatively, the source and output directories can be defined manually.
 Some other examples:
 ``` r
 compileB2D(source_dir='your/bookdown/files/', output_dir='your/dodona/files/')
